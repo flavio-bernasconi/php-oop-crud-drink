@@ -50,9 +50,9 @@ include 'db-query.php';
 
   }
 
-  echo $min;
-  echo $max;
-  echo $sum;
+  echo "MINOR PREZZO : " . $min -> getNome() . " " . $min -> getPrezzo() . "<br><br>";
+  echo "MAX PREZZO: " . $max -> getNome() . " " . $max -> getPrezzo() . "<br><br>";
+  echo "SOMMA : " . $sum;
 
 
 

@@ -60,11 +60,11 @@
     //return
     public function __toString() {
 
-      return $this -> getId() . "<br>" .
-             $this -> getNome() . "<br>" .
-             $this -> getMarca() . "<br>" .
-             $this -> getPrezzo() . "<br>" .
-             $this -> getScadenza() . "<br><br>"
+      return "id: " . $this -> getId() . "<br>" .
+             "nome: " . $this -> getNome() . "<br>" .
+             "marca: " . $this -> getMarca() . "<br>" .
+             "prezzo: " . $this -> getPrezzo() . "<br>" .
+             "scadenza: " . $this -> getScadenza() . "<br><br>"
              ;
 
     }
